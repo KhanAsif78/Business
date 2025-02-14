@@ -1,12 +1,9 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import Header from "../component/Header"; // 🔥 Header import किया
-import Footer from "../component/Footer";
 
 const Home = () => {
   return (
     <Container>
-      <Header />
       <Hero>
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
@@ -30,7 +27,6 @@ const Home = () => {
           Get Started
         </motion.button>
       </Hero>
-      <Footer />
     </Container>
   );
 };
